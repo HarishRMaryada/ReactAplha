@@ -1,0 +1,1 @@
+export const CHANGE_AUTH_STATE = 'check authorized'
