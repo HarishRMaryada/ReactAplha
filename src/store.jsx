@@ -1,7 +1,7 @@
 import { createStore } from 'redux'
 
-import ReducerTodo from './Reducers/reducers'
+import Reducer from './Reducers/index'
 
-var Store = createStore(ReducerTodo)
+var Store = createStore(Reducer)
 
 export default Store
